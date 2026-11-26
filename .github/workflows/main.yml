@@ -31,7 +31,7 @@ jobs:
 
       - name: Build Android APK
         run: |
-          flet build apk --yes --project lemontea --product "LemonTea" --org "com.lemontea" --build-version "1.1.0"
+          flet build apk --project lemontea --product "LemonTea" --org "com.lemontea" --build-version "1.1.0"
 
       - name: Rename APK
         run: |
